@@ -1,8 +1,8 @@
 <?php
 class screenshot extends Script
 {
-	protected $helpMessage = "'screenshot URL'\n'sc URL'\n";
-	protected $description = 'Returns a screenshot of the given URL';
+	protected static $helpMessage = "'screenshot URL'\n'sc URL'\n";
+	protected static $description = 'Returns a screenshot of the given URL';
 
 	public function run()
 	{
